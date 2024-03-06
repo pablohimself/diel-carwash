@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;700&family=Barlow:wght@400;700&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <nav class="nav container">
+        <figure class="nav__logo">
+          <img src="./assets/headerlogo.svg" alt="" class="nav__img" />
+        </figure>
+
+        <section class="nav__menu | barlow-bold">
+          <ul class="nav__links">
+            <li class="nav__list">
+              <a href="#header" class="nav__link">Inicio</a>
+            </li>
+            <li class="nav__list">
+              <a href="#services" class="nav__link">Servicios</a>
+            </li>
+            <li class="nav__list">
+              <a href="#about" class="nav__link">Nosotros</a>
+            </li>
+          </ul>
+        </section>
+        <label for="menu" class="nav__label">
+          <input type="checkbox" id="menu" />
+        </label>
+      </nav>
+      <section id="hero">
+        <div class="container padding-block">
+          <figure class="hero__logo">
+            <img src="./assets/herologo.svg" alt="" class="hero__img" />
+          </figure>
+          <div class="hero__title">
+            <h1 class="heading-large barlow-bold">
+              Lavado Automotríz y de Tapicería
+            </h1>
+          </div>
+
+          <div class="hero__info">
+            <div class="hero__columns">
+              <i class="fa-solid fa-location-dot | hero__icon"></i>
+              <p class="barlow-bold">Zapopan, Jalisco</p>
+            </div>
+
+            <div class="hero__columns">
+              <i class="fa-solid fa-business-time | hero__icon"></i>
+              <p class="barlow-bold">Lunes a Viernes: 10am-7pm</p>
+            </div>
+
+            <div class="hero__columns">
+              <i class="fa-brands fa-square-whatsapp | hero__icon"></i>
+              <p class="barlow-bold">33 1234 5678</p>
+            </div>
+          </div>
+
+          <div>
+            <button class="button barlow-bold">Solicita una visita</button>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section id="details">
+        <div class="container padding-block">
+          <div class="details__title">
+            <h2 class="barlow-bold heading-medium">
+              Servicio de autolavado, detallado y limpieza hasta la puerta de tu
+              casa
+            </h2>
+          </div>
+          <div class="details__columns">
+            <div class="details__paragraph | body-text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Doloremque, sed dolor perferendis sint neque expedita
+                perspiciatis, iure nihil, quo a cupiditate officiis repellat
+                dolores omnis maxime reprehenderit inventore. Porro, recusandae
+                quia?
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                quo debitis deleniti dignissimos error blanditiis culpa corporis
+                consequuntur perspiciatis ducimus. Beatae libero officiis amet
+                expedita ea perferendis id sapiente culpa!
+              </p>
+            </div>
+
+            <div class="details__list | body-text">
+              <ul>
+                <li>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </li>
+                <li>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </li>
+                <li>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </li>
+                <li>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </li>
+                <li>
+                  <p>Lorem ipsum dolor sit amet.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services">
+        <div class="container padding-block">
+          <div>
+            <div class="services__title">
+              <h2 class="barlow-bold heading-medium">Nuestros Paquetes</h2>
+            </div>
+
+            <div class="services__cards even-columns">
+              <div class="services__card">
+                <div class="card__title">
+                  <h3 class="barlow-semi-bold heading-small">Básico</h3>
+                </div>
+
+                <div class="card__content">
+                  <div class="card__price">
+                    <p class="barlow-semi-bold">$200mxn</p>
+                  </div>
+                  <div class="card__paragraphs | barlow-regular">
+                    <p>Lorem, ipsum dolor.</p>
+                    <p>Et, aut iste?</p>
+                    <p>Provident, alias accusamus.</p>
+                    <p>Eligendi, facilis fugiat.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="services__card">
+                <div class="card__title">
+                  <h3 class="barlow-semi-bold heading-small">Estándar</h3>
+                </div>
+
+                <div class="card__content">
+                  <div class="card__price">
+                    <p class="barlow-semi-bold">$350mxn</p>
+                  </div>
+                  <div class="card__paragraphs | barlow-regular">
+                    <p>Lorem, ipsum dolor.</p>
+                    <p>Et, aut iste?</p>
+                    <p>Provident, alias accusamus.</p>
+                    <p>Eligendi, facilis fugiat.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="services__card">
+                <div class="card__title">
+                  <h3 class="barlow-semi-bold heading-small">Deluxe</h3>
+                </div>
+
+                <div class="card__content">
+                  <div class="card__price">
+                    <p class="barlow-semi-bold">$500mxn</p>
+                  </div>
+                  <div class="card__paragraphs | barlow-regular">
+                    <p>Lorem, ipsum dolor.</p>
+                    <p>Et, aut iste?</p>
+                    <p>Provident, alias accusamus.</p>
+                    <p>Eligendi, facilis fugiat.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services__bottom">
+        <div class="bottom__container | container even-columns">
+          <div class="bottom__items">
+            <img src="/assets/car-wash-icon-1-white-1.png" alt="" />
+            <p class="barlow-bold">Servicio a Domicilio</p>
+          </div>
+          <div class="bottom__items">
+            <img src="/assets/car-wash-icon-4-white-1.png" alt="" />
+            <p class="barlow-bold">Limpieza de Tapicería</p>
+          </div>
+          <div class="bottom__items">
+            <img src="/assets/car-wash-icon-7-white-1.png" alt="" />
+            <p class="barlow-bold">Satisfacción Garantizada</p>
+          </div>
+          <div class="bottom__items">
+            <img src="/assets/car-wash-icon-10-white-1.png" alt="" />
+            <p class="barlow-bold">Pulído y Detallado</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="about">
+        <div class="container padding-block even-columns">
+          <div class="about__columns">
+            <figure class="about__figure">
+              <img src="/assets/aboutimage.jpg" alt="" class="about__image" />
+            </figure>
+          </div>
+          <div class="about__columns">
+            <div class="about-title">
+              <h2 class="barlow-bold heading-medium">Somos DIEL</h2>
+            </div>
+            <div class="body-text">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere
+                commodi veritatis tempora repellendus aliquid porro deserunt
+                soluta nobis distinctio suscipit itaque a nihil adipisci quidem,
+                harum iste vero repudiandae rem sunt esse iusto quod corrupti.
+                Totam, porro unde obcaecati repudiandae, ullam nemo impedit
+                numquam qui sint tempora alias voluptatibus rerum officiis cum!
+                Recusandae error deserunt a, modi, vel quisquam quis nesciunt
+                fuga beatae eaque distinctio hic ducimus animi, natus
+                reprehenderit? Praesentium, laudantium deleniti unde ea
+                voluptatem delectus dolor neque numquam quidem at consequatur
+                sit reiciendis impedit quibusdam obcaecati sunt sapiente iure
+                molestias debitis ut nobis odit quam eos. Eligendi dolorum
+                eveniet id unde temporibus saepe excepturi, in voluptate
+                cupiditate corrupti quidem obcaecati optio ea neque praesentium
+                totam magnam consequuntur sapiente minima voluptatem, recusandae
+                nobis iste similique veniam. Dignissimos esse dolor incidunt sed
+                quisquam, similique tempore illum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer">
+      <div class="container padding-block">
+        <div class="footer__columns | even-columns barlow-bold">
+          <div class="footer__item">
+            <i class="fa-solid fa-location-dot | footer__icon"></i>
+            <p>Ubicación</p>
+            <p>Zapopan, Jalisco</p>
+          </div>
+
+          <div class="footer__item">
+            <i class="fa-solid fa-business-time | footer__icon"></i>
+            <p>Horario</p>
+            <p>L a V: 10am-7pm</p>
+          </div>
+
+          <div class="footer__item">
+            <i class="fa-brands fa-square-whatsapp | footer__icon"></i>
+            <p>Contacto</p>
+            <p>33 1234 5678</p>
+          </div>
+        </div>
+
+        <div>
+          <button class="button | barlow-bold">Ponte en contacto</button>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
