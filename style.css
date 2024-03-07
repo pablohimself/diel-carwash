@@ -594,6 +594,16 @@ ul {
     flex-direction: row;
   }
 
+  .details__columns {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+
+  .details__list {
+    flex-basis: 60%;
+  }
+
   #about .container {
     flex-direction: row;
   }
