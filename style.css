@@ -350,7 +350,7 @@ ul {
 }
 
 .details__list {
-  color: var(--dark-blue);
+  color: var(--black);
   font-weight: bold;
 }
 
@@ -487,9 +487,22 @@ ul {
   width: 100%;
 }
 
-.about-title {
+.about__title {
   text-align: center;
   margin-bottom: 2rem;
+}
+
+.about__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.about__icon {
+  color: var(--black);
+  font-size: 3.125rem;
 }
 
 /** contact **/
@@ -584,6 +597,22 @@ ul {
     display: none;
   }
 
+  .details__columns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+  }
+
+  .details__paragraph {
+    max-width: 460px;
+  }
+
+  .details__list {
+    flex-basis: 60%;
+  }
+
   .services__cards {
     display: flex;
     gap: 1rem;
@@ -592,16 +621,6 @@ ul {
   .bottom__container {
     display: flex;
     flex-direction: row;
-  }
-
-  .details__columns {
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-  }
-
-  .details__list {
-    flex-basis: 60%;
   }
 
   #about .container {
